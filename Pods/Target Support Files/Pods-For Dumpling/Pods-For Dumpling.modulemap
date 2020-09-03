@@ -1,0 +1,6 @@
+module Pods_For_Dumpling {
+  umbrella header "Pods-For Dumpling-umbrella.h"
+
+  export *
+  module * { export * }
+}

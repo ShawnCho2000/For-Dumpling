@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06CFF16011E355173196251F945A6774 /* Pods-For Dumpling-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3242B24CA11EF10B33689EE71F802BBE /* Pods-For Dumpling-dummy.m */; };
+		099BCCB29E692CE3EF82E01481D7B73E /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AFA6E6A4F900730D7423EB8E7F0524 /* diamond.png */; };
+		14046959F9C2E5940707FE81E8F33A92 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FFB666CFDD14A130B46ECDAB6D1F87 /* confetti.png */; };
+		3953C40C34C7DDA6C264156FD172FF58 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 224A631C8EF49585C97532315B8693DD /* triangle.png */; };
+		71A68DAC0F685F22C4EEFBD02B593710 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CB0F34F1DDE6BE2466083402CEC44F /* star.png */; };
+		858CE5F48F1E0E55A5384AC2AF36C023 /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA268E70AA58B9E6DA387F827F06CCC /* SAConfettiView.swift */; };
+		8CA0A1AF9B084E6796CF3DAA8F897077 /* SAConfettiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC961FC7759CB0EA04395359D7C5931 /* SAConfettiView-dummy.m */; };
+		91691F6B5E71738DD030FD5DCC2C0283 /* SAConfettiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1DF917B9F8DE4DA5830F67913892F4 /* SAConfettiView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A350B23618315C2C80B6423B6C9988B9 /* Pods-For Dumpling-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F47168959F9F83B73796FF1BB6BE2DA5 /* Pods-For Dumpling-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E2743D6DC7140E1F279BD9294A43E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF5EC9A82178D0D695682390F2DE2F1;
+			remoteInfo = SAConfettiView;
+		};
+		EA8B21331CF33B2F8023F574A7394EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E488B4A8341D4A1374B44B7D0191BC4;
+			remoteInfo = "SAConfettiView-SAConfettiView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0514467172DDB3BBF16BCC3DAC758406 /* Pods-For Dumpling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-For Dumpling.release.xcconfig"; sourceTree = "<group>"; };
+		224A631C8EF49585C97532315B8693DD /* triangle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = triangle.png; path = Pod/Assets/triangle.png; sourceTree = "<group>"; };
+		2AC0EB881DFD4C5E4B59019904DE5D81 /* Pods-For Dumpling-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-For Dumpling-resources.sh"; sourceTree = "<group>"; };
+		2B5EA1708B9E78F7A334DAAFA5C3F563 /* SAConfettiView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAConfettiView.debug.xcconfig; sourceTree = "<group>"; };
+		3242B24CA11EF10B33689EE71F802BBE /* Pods-For Dumpling-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-For Dumpling-dummy.m"; sourceTree = "<group>"; };
+		372CFB45254523BFF51C2AD5E5B8E0D0 /* Pods-For Dumpling-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-For Dumpling-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CA268E70AA58B9E6DA387F827F06CCC /* SAConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAConfettiView.swift; path = Pod/Classes/SAConfettiView.swift; sourceTree = "<group>"; };
+		3FC961FC7759CB0EA04395359D7C5931 /* SAConfettiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAConfettiView-dummy.m"; sourceTree = "<group>"; };
+		400C22FBD009C196019171CED289838E /* SAConfettiView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAConfettiView.release.xcconfig; sourceTree = "<group>"; };
+		4CFF2E4058F858816365EC642C6DD990 /* libSAConfettiView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSAConfettiView.a; path = libSAConfettiView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C65025B726AF914C9205F197A143BB /* Pods-For Dumpling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-For Dumpling.debug.xcconfig"; sourceTree = "<group>"; };
+		5C06E0F39A75D6476D10E3F9D10E86AD /* SAConfettiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAConfettiView.modulemap; sourceTree = "<group>"; };
+		7B083A080DCFC01B3DC303023468C05C /* SAConfettiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-prefix.pch"; sourceTree = "<group>"; };
+		82AFA6E6A4F900730D7423EB8E7F0524 /* diamond.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = diamond.png; path = Pod/Assets/diamond.png; sourceTree = "<group>"; };
+		8C4B98B4F0754EBB952CA75413AA6C6B /* Pods-For Dumpling-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-For Dumpling-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E18D10B9BF344159CBE126239998BD0 /* ResourceBundle-SAConfettiView-SAConfettiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SAConfettiView-SAConfettiView-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4FFB666CFDD14A130B46ECDAB6D1F87 /* confetti.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = confetti.png; path = Pod/Assets/confetti.png; sourceTree = "<group>"; };
+		B5D053AC7C1BA3056503868494F955F1 /* Pods-For Dumpling.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-For Dumpling.modulemap"; sourceTree = "<group>"; };
+		E5CB0F34F1DDE6BE2466083402CEC44F /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = Pod/Assets/star.png; sourceTree = "<group>"; };
+		E94B64C2BD13E14D90FC9CA3977F42AF /* SAConfettiView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SAConfettiView.bundle; path = "SAConfettiView-SAConfettiView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1DF917B9F8DE4DA5830F67913892F4 /* SAConfettiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-umbrella.h"; sourceTree = "<group>"; };
+		F47168959F9F83B73796FF1BB6BE2DA5 /* Pods-For Dumpling-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-For Dumpling-umbrella.h"; sourceTree = "<group>"; };
+		F8320103379ABBFD1D86E57E04941B61 /* libPods-For Dumpling.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-For Dumpling.a"; path = "libPods-For Dumpling.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		071A216284F3224D8D50F6F170A9DEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FDE6EECEC161230836C92A21F0634D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C7927EB8686D4EF580F728C85070C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19383E0DBAE2C5A67EF946B34E24D488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8320103379ABBFD1D86E57E04941B61 /* libPods-For Dumpling.a */,
+				4CFF2E4058F858816365EC642C6DD990 /* libSAConfettiView.a */,
+				E94B64C2BD13E14D90FC9CA3977F42AF /* SAConfettiView.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42CD8526D6AA365A013E9792BAD2478F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61ED1076720B7CD617D085C729DAF7A6 /* SAConfettiView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61ED1076720B7CD617D085C729DAF7A6 /* SAConfettiView */ = {
+			isa = PBXGroup;
+			children = (
+				3CA268E70AA58B9E6DA387F827F06CCC /* SAConfettiView.swift */,
+				C5A33C5263C0FCF5BE4E947717D41735 /* Resources */,
+				DD5AB0CD5A4F0B6F6A7239F045B378B9 /* Support Files */,
+			);
+			name = SAConfettiView;
+			path = SAConfettiView;
+			sourceTree = "<group>";
+		};
+		B95F672752F5424965202A361878236B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D46D1B01C529443CC937F78682870713 /* Pods-For Dumpling */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C5A33C5263C0FCF5BE4E947717D41735 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4FFB666CFDD14A130B46ECDAB6D1F87 /* confetti.png */,
+				82AFA6E6A4F900730D7423EB8E7F0524 /* diamond.png */,
+				E5CB0F34F1DDE6BE2466083402CEC44F /* star.png */,
+				224A631C8EF49585C97532315B8693DD /* triangle.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				42CD8526D6AA365A013E9792BAD2478F /* Pods */,
+				19383E0DBAE2C5A67EF946B34E24D488 /* Products */,
+				B95F672752F5424965202A361878236B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D46D1B01C529443CC937F78682870713 /* Pods-For Dumpling */ = {
+			isa = PBXGroup;
+			children = (
+				B5D053AC7C1BA3056503868494F955F1 /* Pods-For Dumpling.modulemap */,
+				372CFB45254523BFF51C2AD5E5B8E0D0 /* Pods-For Dumpling-acknowledgements.markdown */,
+				8C4B98B4F0754EBB952CA75413AA6C6B /* Pods-For Dumpling-acknowledgements.plist */,
+				3242B24CA11EF10B33689EE71F802BBE /* Pods-For Dumpling-dummy.m */,
+				2AC0EB881DFD4C5E4B59019904DE5D81 /* Pods-For Dumpling-resources.sh */,
+				F47168959F9F83B73796FF1BB6BE2DA5 /* Pods-For Dumpling-umbrella.h */,
+				54C65025B726AF914C9205F197A143BB /* Pods-For Dumpling.debug.xcconfig */,
+				0514467172DDB3BBF16BCC3DAC758406 /* Pods-For Dumpling.release.xcconfig */,
+			);
+			name = "Pods-For Dumpling";
+			path = "Target Support Files/Pods-For Dumpling";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD5AB0CD5A4F0B6F6A7239F045B378B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E18D10B9BF344159CBE126239998BD0 /* ResourceBundle-SAConfettiView-SAConfettiView-Info.plist */,
+				5C06E0F39A75D6476D10E3F9D10E86AD /* SAConfettiView.modulemap */,
+				3FC961FC7759CB0EA04395359D7C5931 /* SAConfettiView-dummy.m */,
+				7B083A080DCFC01B3DC303023468C05C /* SAConfettiView-prefix.pch */,
+				EE1DF917B9F8DE4DA5830F67913892F4 /* SAConfettiView-umbrella.h */,
+				2B5EA1708B9E78F7A334DAAFA5C3F563 /* SAConfettiView.debug.xcconfig */,
+				400C22FBD009C196019171CED289838E /* SAConfettiView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAConfettiView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40613D8C41CF8FCF85BFE2E62CB2A0BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91691F6B5E71738DD030FD5DCC2C0283 /* SAConfettiView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99DFB2A035FEF231C83C3BFB00007DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A350B23618315C2C80B6423B6C9988B9 /* Pods-For Dumpling-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E488B4A8341D4A1374B44B7D0191BC4 /* SAConfettiView-SAConfettiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD7E2D717B0E1E742EDD1BE358B1C22 /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */;
+			buildPhases = (
+				E35AFA30D67807964CD5D8F4FCC6BABE /* Sources */,
+				071A216284F3224D8D50F6F170A9DEB1 /* Frameworks */,
+				5CE2765210F735A40920AFCE3AB4B120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SAConfettiView-SAConfettiView";
+			productName = "SAConfettiView-SAConfettiView";
+			productReference = E94B64C2BD13E14D90FC9CA3977F42AF /* SAConfettiView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C855D18526C699151EEB8A7676C9A79F /* Pods-For Dumpling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559392AFEB38F0CB9832D26512FC0753 /* Build configuration list for PBXNativeTarget "Pods-For Dumpling" */;
+			buildPhases = (
+				D99DFB2A035FEF231C83C3BFB00007DA /* Headers */,
+				F688EF01B86266811320AC7E993EDF9E /* Sources */,
+				A4C7927EB8686D4EF580F728C85070C1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1C3127E0E42A04E62E3405C5F7F36D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-For Dumpling";
+			productName = "Pods-For Dumpling";
+			productReference = F8320103379ABBFD1D86E57E04941B61 /* libPods-For Dumpling.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DEF5EC9A82178D0D695682390F2DE2F1 /* SAConfettiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521DF59E4608C01C6050014D3A0D8FB3 /* Build configuration list for PBXNativeTarget "SAConfettiView" */;
+			buildPhases = (
+				40613D8C41CF8FCF85BFE2E62CB2A0BC /* Headers */,
+				A449A9D6FA6E2E3984E637D21BA6CB65 /* Sources */,
+				90FDE6EECEC161230836C92A21F0634D /* Frameworks */,
+				A4CDB55E927B09082492D7EB66BB44B6 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4D907D8DA200AC9B28299643091A7ED /* PBXTargetDependency */,
+			);
+			name = SAConfettiView;
+			productName = SAConfettiView;
+			productReference = 4CFF2E4058F858816365EC642C6DD990 /* libSAConfettiView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 19383E0DBAE2C5A67EF946B34E24D488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C855D18526C699151EEB8A7676C9A79F /* Pods-For Dumpling */,
+				DEF5EC9A82178D0D695682390F2DE2F1 /* SAConfettiView */,
+				1E488B4A8341D4A1374B44B7D0191BC4 /* SAConfettiView-SAConfettiView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CE2765210F735A40920AFCE3AB4B120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14046959F9C2E5940707FE81E8F33A92 /* confetti.png in Resources */,
+				099BCCB29E692CE3EF82E01481D7B73E /* diamond.png in Resources */,
+				71A68DAC0F685F22C4EEFBD02B593710 /* star.png in Resources */,
+				3953C40C34C7DDA6C264156FD172FF58 /* triangle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4CDB55E927B09082492D7EB66BB44B6 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SAConfettiView/SAConfettiView.modulemap",
+				"${PODS_ROOT}/Headers/Public/SAConfettiView/SAConfettiView-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SAConfettiView-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SAConfettiView/SAConfettiView.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SAConfettiView/SAConfettiView-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A449A9D6FA6E2E3984E637D21BA6CB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA0A1AF9B084E6796CF3DAA8F897077 /* SAConfettiView-dummy.m in Sources */,
+				858CE5F48F1E0E55A5384AC2AF36C023 /* SAConfettiView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35AFA30D67807964CD5D8F4FCC6BABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F688EF01B86266811320AC7E993EDF9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CFF16011E355173196251F945A6774 /* Pods-For Dumpling-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1C3127E0E42A04E62E3405C5F7F36D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAConfettiView;
+			target = DEF5EC9A82178D0D695682390F2DE2F1 /* SAConfettiView */;
+			targetProxy = 6E2743D6DC7140E1F279BD9294A43E27 /* PBXContainerItemProxy */;
+		};
+		E4D907D8DA200AC9B28299643091A7ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SAConfettiView-SAConfettiView";
+			target = 1E488B4A8341D4A1374B44B7D0191BC4 /* SAConfettiView-SAConfettiView */;
+			targetProxy = EA8B21331CF33B2F8023F574A7394EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BF045BE8053D8F7241F8AF1AE7C7249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400C22FBD009C196019171CED289838E /* SAConfettiView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SAConfettiView/SAConfettiView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAConfettiView;
+				PRODUCT_NAME = SAConfettiView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1032B0780CAC3F6CD936DEF37E0E0E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1119A041D2314894CAAA3A60311817CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C65025B726AF914C9205F197A143BB /* Pods-For Dumpling.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-For Dumpling/Pods-For Dumpling.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DCABF71ABF98C4E186DBF23A89D8D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5F405522D45F4757A63F8530CA6C2788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400C22FBD009C196019171CED289838E /* SAConfettiView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
+				IBSC_MODULE = SAConfettiView;
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-SAConfettiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		92751ED2612F992E63722866BDE26324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B5EA1708B9E78F7A334DAAFA5C3F563 /* SAConfettiView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
+				IBSC_MODULE = SAConfettiView;
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-SAConfettiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A77ECE1A62B173BBD0EDEE19393070E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B5EA1708B9E78F7A334DAAFA5C3F563 /* SAConfettiView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SAConfettiView/SAConfettiView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAConfettiView;
+				PRODUCT_NAME = SAConfettiView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0640E630D5482D44B2671DBA18BB5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0514467172DDB3BBF16BCC3DAC758406 /* Pods-For Dumpling.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-For Dumpling/Pods-For Dumpling.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DD7E2D717B0E1E742EDD1BE358B1C22 /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92751ED2612F992E63722866BDE26324 /* Debug */,
+				5F405522D45F4757A63F8530CA6C2788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCABF71ABF98C4E186DBF23A89D8D7F /* Debug */,
+				1032B0780CAC3F6CD936DEF37E0E0E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521DF59E4608C01C6050014D3A0D8FB3 /* Build configuration list for PBXNativeTarget "SAConfettiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77ECE1A62B173BBD0EDEE19393070E0 /* Debug */,
+				0BF045BE8053D8F7241F8AF1AE7C7249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559392AFEB38F0CB9832D26512FC0753 /* Build configuration list for PBXNativeTarget "Pods-For Dumpling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1119A041D2314894CAAA3A60311817CB /* Debug */,
+				C0640E630D5482D44B2671DBA18BB5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
